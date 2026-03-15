@@ -8,7 +8,7 @@
 
 <title>Fathima Travels Dashboard</title>
 
-<!-- TAB ICON (OLD LOGO) -->
+<!-- TAB ICON -->
 <link rel="icon"
 href="https://drive.google.com/thumbnail?id=1DA9UyLpsxBxIqm1DOVMx4_5DQCkwQvsF&sz=w64">
 
@@ -24,7 +24,6 @@ font-family:'Montserrat',sans-serif;
 }
 
 body{
-
 background:
 linear-gradient(rgba(10,20,30,0.85),rgba(10,20,30,0.85)),
 url("https://drive.google.com/thumbnail?id=1QIKrOfr7cfiL8L1T4jDtmnjGEtzGoebQ&sz=w2000");
@@ -36,11 +35,9 @@ background-attachment:fixed;
 
 color:white;
 min-height:100vh;
-
 }
 
 /* FULL WIDTH */
-
 .wrapper{
 width:100vw;
 margin-left:calc(-50vw + 50%);
@@ -48,30 +45,25 @@ padding:40px;
 }
 
 /* HEADER */
-
 .header{
 text-align:center;
 margin-bottom:40px;
 }
 
 .header img{
-max-width:220px;
+max-width:120px; /* Tab icon logo size */
 }
 
 /* DASHBOARD */
-
 .dashboard{
-
 display:grid;
 grid-template-columns:repeat(auto-fit,minmax(220px,1fr));
 gap:35px;
 max-width:1600px;
 margin:auto;
-
 }
 
 .app{
-
 background:rgba(255,255,255,0.08);
 border-radius:20px;
 padding:40px 20px;
@@ -79,20 +71,19 @@ text-align:center;
 backdrop-filter:blur(10px);
 transition:0.35s;
 border:1px solid rgba(255,255,255,0.2);
-
 }
 
 .app:hover{
-
 transform:translateY(-10px) scale(1.05);
 background:rgba(255,255,255,0.15);
 box-shadow:0 20px 45px rgba(0,0,0,0.6);
-
 }
 
 .app img{
 width:65px;
+height:65px; /* Uniform size for all logos */
 margin-bottom:12px;
+object-fit:contain;
 }
 
 .app a{
@@ -119,8 +110,8 @@ opacity:0.7;
 
 <div class="header">
 
-<!-- PAGE LOGO (FORMER TAB ICON) -->
-<img src="https://drive.google.com/thumbnail?id=1pmF4ThsyuXeMwtmus9N6u3QAYbEoUt_6&sz=w500">
+<!-- PAGE LOGO (TAB ICON IMAGE) -->
+<img src="https://drive.google.com/thumbnail?id=1DA9UyLpsxBxIqm1DOVMx4_5DQCkwQvsF&sz=w64">
 
 </div>
 
@@ -128,61 +119,64 @@ opacity:0.7;
 
 <div class="app">
 <a href="http://www.flycreativekdr.com:8080/FlyCreative/index.jsp" target="_blank">
-<img src="https://drive.google.com/thumbnail?id=1Zd4Jwxrwy0qVkuzuFnNeoaXUXt2PlDvT&sz=w500">
+<img src="https://drive.google.com/thumbnail?id=1Zd4Jwxrwy0qVkuzuFnNeoaXUXt2PlDvT&sz=w500" alt="Fly Creative Logo">
 FLY CREATIVE
 </a>
 </div>
 
 <div class="app">
 <a href="https://agents.alhind.com/Account/Login" target="_blank">
-<img src="https://drive.google.com/thumbnail?id=1yRqwOPO7yx0-8kSSG2Ytv4O5wCodhCtP&sz=w500">
+<img src="https://drive.google.com/thumbnail?id=1yRqwOPO7yx0-8kSSG2Ytv4O5wCodhCtP&sz=w500" alt="Al Hind Logo">
 AL HIND
 </a>
 </div>
 
 <div class="app">
 <a href="https://masar.nusuk.sa/pub/login" target="_blank">
-<img src="https://drive.google.com/thumbnail?id=17dc4riaa5OG0snKzqawQVU0qOGtUoGIt&sz=w500">
+<img src="https://drive.google.com/thumbnail?id=17dc4riaa5OG0snKzqawQVU0qOGtUoGIt&sz=w500" alt="Nusuk Logo">
 NUSUK
 </a>
 </div>
 
 <div class="app">
 <a href="https://visa.mofa.gov.sa/visaservices/Searchvisa" target="_blank">
-<img src="https://drive.google.com/thumbnail?id=1AKruSBW8liw5gVz9Cr_6csPC-bHPIkOb&sz=w500">
+<img src="https://drive.google.com/thumbnail?id=1AKruSBW8liw5gVz9Cr_6csPC-bHPIkOb&sz=w500" alt="Umra Visa Logo">
 PRINT UMRA VISA
 </a>
 </div>
 
 <div class="app">
 <a href="https://b2b.namotravel.in/" target="_blank">
-<img src="https://drive.google.com/thumbnail?id=1wvN_jovl0OqpVwVjg1160OkN05q0h9v1&sz=w500">
+<img src="https://drive.google.com/thumbnail?id=1wvN_jovl0OqpVwVjg1160OkN05q0h9v1&sz=w500" alt="Namo Travel Logo">
 NAMO TRAVEL
 </a>
 </div>
 
 <div class="app">
 <a href="https://b2b.riya.travel/" target="_blank">
-<img src="https://drive.google.com/thumbnail?id=1MRSPxLAP7Lu_kmo9_PbVjFjX20J3XUcw&sz=w500">
+<img src="https://drive.google.com/thumbnail?id=1MRSPxLAP7Lu_kmo9_PbVjFjX20J3XUcw&sz=w500" alt="Riya Travels Logo">
 RIYA TRAVELS
 </a>
 </div>
 
 <div class="app">
 <a href="https://mail.google.com" target="_blank">
-📧 GMAIL
+<img src="https://upload.wikimedia.org/wikipedia/commons/4/4e/Gmail_Icon.png" alt="Gmail Logo">
+GMAIL
 </a>
 </div>
 
 <div class="app">
 <a href="https://web.whatsapp.com" target="_blank">
-💬 WHATSAPP
+<img src="https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg" alt="WhatsApp Logo">
+WHATSAPP
 </a>
 </div>
 
 <div class="app">
 <a href="https://www.sejda.com/pdf-editor" target="_blank">
-📄 PDF EDITOR
+<img src="https://upload.wikimedia.org/wikipedia/commons/8/87/PDF_file_icon.svg" alt="PDF Editor Logo">
+PDF EDITOR
 </a>
 </div>
 
